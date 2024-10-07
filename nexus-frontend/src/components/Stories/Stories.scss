@@ -1,0 +1,40 @@
+.stories-div {
+    // border: 1px black dashed;
+    height: 100%;
+    background-color: white;
+    border-radius: 24px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.stories-header {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 50px 15px 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stories-header-label {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.stories-header-button-label {
+    font-size: 15px;
+    text-transform: none;
+    margin-left: 10px;
+}
+
+.stories-table-div {
+    border: 1px black dashed;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 30px;
+    border-radius: 24px; /* Rounded corners */
+    border: 1px lightgray solid;
+    padding: 30px;
+}

@@ -1,0 +1,30 @@
+.chat-history {
+    // border: 1px dashed purple;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+
+.chat-history-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    width: auto;
+}
+
+.chat-history-body {
+    text-align: left;
+    padding: 20px;
+}
+
+.chat-history-body-heading {
+    font-weight: 600;
+    font-size: 14px;
+}

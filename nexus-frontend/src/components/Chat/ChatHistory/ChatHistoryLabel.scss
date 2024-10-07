@@ -1,0 +1,21 @@
+.chat-history-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    font-size: 15px;
+}
+
+.chat-history-label-text {
+    padding: 0px;
+    display: flex;
+    
+    p {
+        overflow: hidden;
+        display: inline-block;
+        white-space:nowrap;
+        width: 200px;
+        text-overflow: ellipsis;
+    }
+}

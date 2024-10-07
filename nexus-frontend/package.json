@@ -1,0 +1,81 @@
+{
+  "name": "nexus-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@aws-amplify/ui-react": "^6.1.14",
+    "@braintree/sanitize-url": "^7.1.0",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.6",
+    "@mui/material": "^5.16.6",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@tiptap/extension-color": "^2.6.6",
+    "@tiptap/extension-link": "^2.6.6",
+    "@tiptap/extension-text-align": "^2.6.6",
+    "@tiptap/extension-text-style": "^2.6.6",
+    "@tiptap/extension-underline": "^2.6.6",
+    "@tiptap/pm": "^2.6.6",
+    "@tiptap/react": "^2.6.6",
+    "@tiptap/starter-kit": "^2.6.6",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.104",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "aws-amplify": "^6.4.3",
+    "axios": "^1.7.7",
+    "classnames": "^2.5.1",
+    "dompurify": "^3.1.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^15.0.1",
+    "react-markdown": "^9.0.1",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.26.0",
+    "react-scripts": "5.0.1",
+    "react-syntax-highlighter": "^15.5.0",
+    "react-type-animation": "^3.2.0",
+    "rehype-katex": "^7.0.0",
+    "remark-breaks": "^1.0.5",
+    "remark-gfm": "^4.0.0",
+    "remark-math": "^6.0.0",
+    "sass": "^1.77.8",
+    "tailwind-merge": "^2.5.2",
+    "tiptap-markdown": "^0.8.10",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "zustand": "^4.5.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "7.21.11",
+    "@types/dompurify": "^3.0.5",
+    "@types/react-modal": "^3.16.3",
+    "@types/react-syntax-highlighter": "^15.5.13"
+  }
+}

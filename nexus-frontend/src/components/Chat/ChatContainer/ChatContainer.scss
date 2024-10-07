@@ -1,0 +1,71 @@
+.chat-container {
+    height: 100%;
+    width: 80%;
+    max-height: 75vh; /* Adjust this value as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 10px 50px;
+    // border: 1px solid #ddd; /* Optional: for visual separation */
+    // border-radius: 8px; /* Optional: for rounded corners */
+}
+
+.chat-container::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.chat-container::-webkit-scrollbar-track {
+  background: transparent; /* Background of the track (bar) */
+}
+
+.chat-container::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 4px; /* Rounded corners for the scrollbar thumb */
+}
+
+.chat-container::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color when hovered */
+}
+
+.chat-home {
+  // border: 1px black dashed;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.chat-home-img-div {
+  // border: 1px red solid;
+  // height: 50px;
+  margin-bottom: 20px;
+}
+
+.chat-home-labels {
+  display: flex;
+  flex-direction: row;
+}
+
+.chat-home-label {
+  // border: 1px red solid;
+  text-align: left;
+  border-radius: 20px;
+  // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px 15px;
+  width: 250px;
+  height: 100px;
+  font-size: 15px;
+  background-color: white;
+
+  .highlight {
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  &:hover {
+    // border-color: lightgray; // Highlight color
+    box-shadow: 0 0 10px rgba(192, 192, 192, 0.5); // Optional shadow effect
+    // box-shadow: 0 0 0 2px #d0d0d0;
+    cursor: pointer;
+  }
+}

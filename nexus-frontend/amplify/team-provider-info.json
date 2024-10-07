@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nexusfrontend-dev-7c7dd-authRole",
+      "UnauthRoleArn": "arn:aws:iam::511706743168:role/amplify-nexusfrontend-dev-7c7dd-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::511706743168:role/amplify-nexusfrontend-dev-7c7dd-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-nexusfrontend-dev-7c7dd-deployment",
+      "UnauthRoleName": "amplify-nexusfrontend-dev-7c7dd-unauthRole",
+      "StackName": "amplify-nexusfrontend-dev-7c7dd",
+      "StackId": "arn:aws:cloudformation:us-east-1:511706743168:stack/amplify-nexusfrontend-dev-7c7dd/0ce1e3e0-5359-11ef-89f0-0afff1907d6b",
+      "AmplifyAppId": "d371m0aiqb5l55"
+    },
+    "categories": {
+      "auth": {
+        "nexusfrontendf1a766e1": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d371m0aiqb5l55",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
